@@ -1,0 +1,4 @@
+FROM mysql:latest
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=corporates_db
+EXPOSE 3306
